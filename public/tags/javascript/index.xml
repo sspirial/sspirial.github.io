@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Javascript on Munubi Logs</title>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <description>Recent content in Javascript on Munubi Logs</description>
+    <image>
+      <title>Munubi Logs</title>
+      <url>http://localhost:1313/images/c.png</url>
+      <link>http://localhost:1313/images/c.png</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en</language>
+    <copyright>2025 Munubi Emmanuel</copyright>
+    <lastBuildDate>Thu, 29 Apr 2021 11:48:15 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 JavaScript Console Methods you should Know</title>
+      <link>http://localhost:1313/posts/5-javascript-console-methods-you-should-know/</link>
+      <pubDate>Thu, 29 Apr 2021 11:48:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/5-javascript-console-methods-you-should-know/</guid>
+      <description>&lt;p&gt;All web developers are probably familiar with using the web console as their debugging tool. The most common way is using the famous &lt;code&gt;console.log&lt;/code&gt; tool that JavaScript provides.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;console&lt;/code&gt; has more than just the &lt;code&gt;.log()&lt;/code&gt; method that could be helpful. Check out some of the methods you could use:&lt;/p&gt;
+&lt;h2 id=&#34;1-consolelog&#34;&gt;1. &lt;code&gt;console.log()&lt;/code&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is the most used method of all&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It outputs messages to the web console. The message may be of any data type.
+can also pass in variables and functions as parameters.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
