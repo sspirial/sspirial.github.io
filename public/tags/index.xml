@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Munubi Logs</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://sspirial.github.io/tags/</link>
     <description>Recent content in Tags on Munubi Logs</description>
     <image>
       <title>Munubi Logs</title>
-      <url>http://localhost:1313/images/c.png</url>
-      <link>http://localhost:1313/images/c.png</link>
+      <url>https://sspirial.github.io/images/c.png</url>
+      <link>https://sspirial.github.io/images/c.png</link>
     </image>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>2025 Munubi Emmanuel</copyright>
     <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sspirial.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DAO Governance</title>
-      <link>http://localhost:1313/tags/dao-governance/</link>
+      <link>https://sspirial.github.io/tags/dao-governance/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dao-governance/</guid>
+      <guid>https://sspirial.github.io/tags/dao-governance/</guid>
       <description></description>
     </item>
     <item>
       <title>Entropy</title>
-      <link>http://localhost:1313/tags/entropy/</link>
+      <link>https://sspirial.github.io/tags/entropy/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/entropy/</guid>
+      <guid>https://sspirial.github.io/tags/entropy/</guid>
       <description></description>
     </item>
     <item>
       <title>Living Constitution</title>
-      <link>http://localhost:1313/tags/living-constitution/</link>
+      <link>https://sspirial.github.io/tags/living-constitution/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/living-constitution/</guid>
+      <guid>https://sspirial.github.io/tags/living-constitution/</guid>
       <description></description>
     </item>
     <item>
       <title>Meritocracy</title>
-      <link>http://localhost:1313/tags/meritocracy/</link>
+      <link>https://sspirial.github.io/tags/meritocracy/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/meritocracy/</guid>
+      <guid>https://sspirial.github.io/tags/meritocracy/</guid>
       <description></description>
     </item>
     <item>
       <title>Reputation Systems</title>
-      <link>http://localhost:1313/tags/reputation-systems/</link>
+      <link>https://sspirial.github.io/tags/reputation-systems/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/reputation-systems/</guid>
+      <guid>https://sspirial.github.io/tags/reputation-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Technocracy</title>
-      <link>http://localhost:1313/tags/technocracy/</link>
+      <link>https://sspirial.github.io/tags/technocracy/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technocracy/</guid>
+      <guid>https://sspirial.github.io/tags/technocracy/</guid>
       <description></description>
     </item>
     <item>
       <title>Ajua</title>
-      <link>http://localhost:1313/tags/ajua/</link>
+      <link>https://sspirial.github.io/tags/ajua/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ajua/</guid>
+      <guid>https://sspirial.github.io/tags/ajua/</guid>
       <description></description>
     </item>
     <item>
       <title>Board-Game</title>
-      <link>http://localhost:1313/tags/board-game/</link>
+      <link>https://sspirial.github.io/tags/board-game/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/board-game/</guid>
+      <guid>https://sspirial.github.io/tags/board-game/</guid>
       <description></description>
     </item>
     <item>
       <title>Chama</title>
-      <link>http://localhost:1313/tags/chama/</link>
+      <link>https://sspirial.github.io/tags/chama/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/chama/</guid>
+      <guid>https://sspirial.github.io/tags/chama/</guid>
       <description></description>
     </item>
     <item>
       <title>Innovation</title>
-      <link>http://localhost:1313/tags/innovation/</link>
+      <link>https://sspirial.github.io/tags/innovation/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/innovation/</guid>
+      <guid>https://sspirial.github.io/tags/innovation/</guid>
       <description></description>
     </item>
     <item>
       <title>VSLA</title>
-      <link>http://localhost:1313/tags/vsla/</link>
+      <link>https://sspirial.github.io/tags/vsla/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vsla/</guid>
+      <guid>https://sspirial.github.io/tags/vsla/</guid>
       <description></description>
     </item>
   </channel>

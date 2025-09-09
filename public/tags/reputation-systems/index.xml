@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reputation Systems on Munubi Logs</title>
-    <link>http://localhost:1313/tags/reputation-systems/</link>
+    <link>https://sspirial.github.io/tags/reputation-systems/</link>
     <description>Recent content in Reputation Systems on Munubi Logs</description>
     <image>
       <title>Munubi Logs</title>
-      <url>http://localhost:1313/images/c.png</url>
-      <link>http://localhost:1313/images/c.png</link>
+      <url>https://sspirial.github.io/images/c.png</url>
+      <link>https://sspirial.github.io/images/c.png</link>
     </image>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>2025 Munubi Emmanuel</copyright>
     <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/reputation-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sspirial.github.io/tags/reputation-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entropy Meritocracy</title>
-      <link>http://localhost:1313/posts/entropy-meritocracy/</link>
+      <link>https://sspirial.github.io/posts/entropy-meritocracy/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/entropy-meritocracy/</guid>
+      <guid>https://sspirial.github.io/posts/entropy-meritocracy/</guid>
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Traditional DAO governance models often rely on token-weighted voting, direct democracy, or static reputation systems. These models face challenges such as oligarchy formation, outdated rules, inactive participants retaining influence, and rigidity in adapting to shifting contexts. Existing meritocratic or reputation-based approaches address some issues but do not fully integrate dynamic renewal or the natural decay of both members’ influence and rules themselves.&lt;/p&gt;
 &lt;h2 id=&#34;core-idea&#34;&gt;Core Idea&lt;/h2&gt;
