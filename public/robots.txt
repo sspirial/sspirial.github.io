@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sspirial.github.io/sitemap.xml

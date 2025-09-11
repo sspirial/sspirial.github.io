@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Innovation on Munubi Logs</title>
+    <link>https://sspirial.github.io/tags/innovation/</link>
+    <description>Recent content in Innovation on Munubi Logs</description>
+    <image>
+      <title>Munubi Logs</title>
+      <url>https://sspirial.github.io/images/c.png</url>
+      <link>https://sspirial.github.io/images/c.png</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en</language>
+    <copyright>2025 Munubi Emmanuel</copyright>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sspirial.github.io/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chama Ajua: Blending Ajua with Chama Table Banking</title>
+      <link>https://sspirial.github.io/posts/chama-ajua-board-summary/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://sspirial.github.io/posts/chama-ajua-board-summary/</guid>
+      <description>&lt;p&gt;In this thread, we explored the idea of merging &lt;strong&gt;Ajua&lt;/strong&gt;, the traditional African mancala game, with &lt;strong&gt;chama/VSLA table banking&lt;/strong&gt; practices in Kenya. The goal: to preserve the &lt;strong&gt;social and ritual dimensions&lt;/strong&gt; of chamas while introducing &lt;strong&gt;structured, transparent accounting&lt;/strong&gt; through a physical board that could later evolve into an SBC (single-board computer) system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-background&#34;&gt;1. Background&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ajua (upcountry)&lt;/strong&gt; and &lt;strong&gt;Bao (coastal/Azanians)&lt;/strong&gt; are traditional mancala games.&lt;/li&gt;
+&lt;li&gt;Chama apps exist but face adoption challenges due to:
+&lt;ul&gt;
+&lt;li&gt;Not all members owning smartphones.&lt;/li&gt;
+&lt;li&gt;Apps disrupting the social dimension of chama meetings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-core-idea&#34;&gt;2. Core Idea&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Each chama session = a &lt;strong&gt;game session&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;board (Ajua-inspired)&lt;/strong&gt; is used to record contributions, loans, repayments, and dividends.&lt;/li&gt;
+&lt;li&gt;Long-term: embed the board with sensors + SBC for automatic digital recording.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-design-evolution&#34;&gt;3. Design Evolution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial diagram used a &lt;strong&gt;central Table Bank pit&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Refined model: &lt;strong&gt;segmented Table Bank&lt;/strong&gt; (each member’s share is visible).&lt;/li&gt;
+&lt;li&gt;A member’s &lt;strong&gt;account = Share + Wallet&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;central pit&lt;/strong&gt; collects interest and other funds (fines, welfare).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-rules-mapping&#34;&gt;4. Rules Mapping&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deposit:&lt;/strong&gt; Tokens from wallet → member’s Share pit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Loan:&lt;/strong&gt; Borrower uses their own shares first, then other members contribute proportionally. Tokens move from Share pits → Wallet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repayment:&lt;/strong&gt; Tokens returned to contributing members’ Shares; interest goes into central pit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cycle End:&lt;/strong&gt; Interest in central pit distributed equally among members.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-prototype&#34;&gt;5. Prototype&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed a board for 8 members:
+&lt;ul&gt;
+&lt;li&gt;🟢 Share pits arranged around center.&lt;/li&gt;
+&lt;li&gt;🟤 Wallets beside each Share.&lt;/li&gt;
+&lt;li&gt;🔵 Central pit for interest and collective funds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tokens represent money (KES 100 each).&lt;/li&gt;
+&lt;li&gt;Physical playtest possible with beans, bottle caps, or coins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-cultural-context&#34;&gt;6. Cultural Context&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ajua: Western Kenya.&lt;/li&gt;
+&lt;li&gt;Bao: Coastal Kenya (Swahili/Azanians).&lt;/li&gt;
+&lt;li&gt;Both games symbolize &lt;strong&gt;strategy, social interaction, and transparency&lt;/strong&gt; — values directly aligned with chama culture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Chama Ajua board&lt;/strong&gt; reframes chama accounting as a &lt;strong&gt;social ritual game&lt;/strong&gt;.&lt;br&gt;
+It addresses:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
