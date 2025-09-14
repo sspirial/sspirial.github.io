@@ -102,7 +102,7 @@ params:
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/sspirial/sspirial.github.io"
+      url: "https://github.com/sspirial"
     - name: X
       title: Share PaperMod on X/Twitter
       url: "https://x.com/MunubiEmmanuel"

@@ -1,0 +1,12 @@
+/* Ensure bullet lists show on the homepage intro (PaperMod hides list-style in some list layouts) */
+.first-entry .entry-content ul,
+.home-info .entry-content ul {
+  list-style: disc inside; /* show bullets */
+  margin: 0.25rem 0 0.75rem 0;
+  padding-left: 1rem; /* slight indent for readability */
+}
+
+.first-entry .entry-content li,
+.home-info .entry-content li {
+  margin: 0.2rem 0;
+}
