@@ -1,6 +1,6 @@
 baseURL: https://sspirial.github.io/
 languageCode: en-us
-title: Munubi Logs
+title: Munubi Emmanuel
 theme: ["PaperMod"]
 copyright: "© 2025 Munubi Emmanuel"
 
@@ -88,7 +88,7 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Munubi writes"
+    Title: "Munubi Logs"
     Content: >
       Systems Thinking | Self-Mastery | Perception | Inquiry | Resilience | Innovation | Architecture | Legacy
 
