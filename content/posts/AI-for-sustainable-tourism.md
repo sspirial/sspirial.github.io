@@ -12,6 +12,8 @@ description: "Exploring how AI can promote sustainable tourism through the rich 
 
 For the past two weeks, I've been immersed in an incredible project by **United Nations Development Programme Accelerator labs**, in partnership with **Pwani University**, **Kaya Kauma**, and the **Youth Enterprise Development Fund**. Our mission? To explore how AI could be leveraged to promote sustainable tourism, with the ancestral home of the Kauma people, Kaya Kauma, serving as our fascinating testbed.
 
+{{< youtube 2Cdh5UQMfRo >}}
+
 ## Discovering Kaya Kauma
 
 Kaya Kauma, for those unfamiliar, is where the **Mijikenda community** in Kenya originated. My time there was a deep dive into their rich culture. I uncovered ancient wisdom hidden within the sacred Kauma forest, savored their delicious traditional cuisine, and was utterly captivated by the energetic rhythms of their African drum music.
