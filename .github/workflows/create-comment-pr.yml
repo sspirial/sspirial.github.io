@@ -1,0 +1,82 @@
+name: Create Comment PR
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-comment-pr:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'comment')
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Parse comment data from issue
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body;
+            
+            // Extract YAML from the details section
+            const yamlMatch = body.match(/```yaml\n# Save as: data\/comments\/(.+?)\/comment-\d+\.yml\n([\s\S]+?)\n```/);
+            
+            if (!yamlMatch) {
+              core.setFailed('Could not parse comment data');
+              return;
+            }
+            
+            const slug = yamlMatch[1];
+            const yaml = yamlMatch[2];
+            const timestamp = Date.now();
+            
+            core.setOutput('slug', slug);
+            core.setOutput('yaml', yaml);
+            core.setOutput('timestamp', timestamp);
+            
+            return { slug, yaml, timestamp };
+      
+      - name: Create comment file
+        run: |
+          SLUG="${{ steps.parse.outputs.slug }}"
+          TIMESTAMP="${{ steps.parse.outputs.timestamp }}"
+          
+          mkdir -p "data/comments/${SLUG}"
+          
+          cat > "data/comments/${SLUG}/comment-${TIMESTAMP}.yml" << 'EOF'
+${{ steps.parse.outputs.yaml }}
+EOF
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add comment from issue #${{ github.event.issue.number }}"
+          title: "💬 New comment on: ${{ steps.parse.outputs.slug }}"
+          body: |
+            Auto-generated from issue #${{ github.event.issue.number }}
+            
+            **To approve:** Merge this PR  
+            **To reject:** Close this PR and the issue
+          branch: comment-${{ steps.parse.outputs.slug }}-${{ steps.parse.outputs.timestamp }}
+          delete-branch: true
+          labels: comment
+      
+      - name: Add label to issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['pr-created']
+            });
