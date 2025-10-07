@@ -71,8 +71,24 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  # comments: false
+  comments: true
   images: ["images/c.png"]
+
+  # Giscus Comments Configuration
+  # Get your values from https://giscus.app
+  giscus:
+    repo: "sspirial/sspirial.github.io"
+    repoID: "R_kgDONxyq_Q"  # Get from https://giscus.app
+    category: "Announcements"
+    categoryID: "DIC_kwDONxyq_c4CwWQL"  # Get from https://giscus.app
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "en"
+    loading: "lazy"
 
   profileMode:
     enabled: false
