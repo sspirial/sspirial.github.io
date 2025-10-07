@@ -30,7 +30,6 @@
     <h4>Leave a Comment</h4>
     <form id="comment-form" class="comment-form" method="POST">
       <input type="hidden" name="post_slug" value="{{ $postSlug }}">
-      <input type="hidden" name="post_url" value="{{ .Permalink }}">
       <input type="hidden" name="post_title" value="{{ .Title }}">
       
       <div class="form-group">
@@ -81,64 +80,29 @@ document.addEventListener('DOMContentLoaded', function() {
         const name = formData.get('name');
         const email = formData.get('email') || '';
         const message = formData.get('message');
-        const date = new Date().toISOString();
         
-        // Create YAML content for the comment
-        const yamlContent = `name: "${name}"
-email: "${email}"
-date: "${date}"
-message: |
-  ${message.split('\n').map(line => '  ' + line).join('\n')}`;
-        
-        // Create issue body with comment data
-        const issueBody = `**New Comment Submission**
-
-📝 **Post:** ${slug}
-👤 **Name:** ${name}
-📧 **Email:** ${email || 'Not provided'}
-📅 **Date:** ${date}
-
----
-
-### Comment:
-${message}
-
----
-
-### To Approve This Comment:
-
-The GitHub Action will automatically create a PR with this comment file. Just merge the PR to publish the comment.
-
-<details>
-<summary>Comment Data (for manual approval if needed)</summary>
-
-\`\`\`yaml
-# Save as: data/comments/${slug}/comment-${Date.now()}.yml
-${yamlContent}
-\`\`\`
-
-</details>`;
-
-        // Create GitHub issue (no auth required for public repos)
-        const response = await fetch('https://api.github.com/repos/sspirial/sspirial.github.io/issues', {
+        // Submit to Vercel serverless function
+        const response = await fetch('/api/submit-comment', {
           method: 'POST',
           headers: {
-            'Accept': 'application/vnd.github+json',
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            title: `Comment: ${name} on "${slug}"`,
-            body: issueBody,
-            labels: ['comment', 'pending-review']
+            slug: slug,
+            name: name,
+            email: email,
+            message: message
           })
         });
         
-        if (response.ok) {
+        const data = await response.json();
+        
+        if (response.ok && data.success) {
           status.textContent = '✓ Comment submitted successfully! It will appear after moderation.';
           status.className = 'comment-status success';
           form.reset();
         } else {
-          throw new Error('Submission failed');
+          throw new Error(data.message || 'Submission failed');
         }
       } catch (error) {
         status.textContent = '✗ Error submitting comment. Please try again later.';
