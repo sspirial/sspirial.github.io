@@ -1,8 +1,8 @@
 baseURL: https://sspirial.github.io/
 languageCode: en-us
-title: Munubi Emmanuel
+title: Munubi Emmanuel | Full-Stack Software Developer
 theme: ["PaperMod"]
-copyright: "© 2025 Munubi Emmanuel"
+copyright: "© 2026 Munubi Emmanuel"
 
 # Google Analytics 4 Measurement ID
 googleAnalytics: G-8H88BCSW5G
@@ -34,17 +34,21 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
-          url: archives/
-          weight: 15
+        - name: Projects
+          url: projects/
+          weight: 10
+        - name: About
+          url: about/
+          weight: 20
+        - name: Blog & Logs
+          url: posts/
+          weight: 30
         - name: Search
           url: search/
-          weight: 15
-        - name: Tags
-          url: tags/
-          weight: 15
-        - name: my LinkedIn
+          weight: 40
+        - name: LinkedIn
           url: https://www.linkedin.com/in/emmanuel-munubi/
+          weight: 50
 
 
 outputs:
@@ -55,7 +59,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Munubi Emmanuel's personal Logs site"
+  description: "Full-Stack Software Developer specializing in React, Node.js, PostgreSQL, API integrations, and internal systems."
   author: Munubi Emmanuel
 
   defaultTheme: auto
@@ -91,36 +95,42 @@ params:
     loading: "lazy"
 
   profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
+    enabled: true
+    title: "Emmanuel Munubi"
+    subtitle: "Full-Stack Software Developer"
+    description: "Building reliable web applications, internal tools, API integrations, and database systems with React, Node.js, PostgreSQL & Docker."
+    imageUrl: "https://avatars.githubusercontent.com/u/96319511?v=4"
+    imageTitle: "Emmanuel Munubi"
+    imageWidth: 120
+    imageHeight: 120
     buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+      - name: Featured Projects
+        url: projects/
+      - name: About & Skills
+        url: about/
+      - name: GitHub
+        url: https://github.com/sspirial
+      - name: LinkedIn
+        url: https://www.linkedin.com/in/emmanuel-munubi/
 
   homeInfoParams:
-    Title: "Munubi Logs"
+    Title: "Emmanuel Munubi"
     Content: >
-      Systems Thinking | Self-Mastery | Perception | Inquiry | Resilience | Innovation | Architecture | Legacy
+      Full-Stack Developer | React • Node.js • PostgreSQL • Docker • Python
 
-      - I seek to think in frameworks, not fragments.
+      - Building robust internal software tools, dashboards, and automated API integrations.
       
-      - I aim to design for evolution, not just for launch.
-
-      - I pursue learning through inquiry, challenge, and synthesis.
-
+      - Focused on writing clean, maintainable code that solves real operational challenges.
 
   socialIcons:
     - name: github
-      title: View Source on Github
+      title: View GitHub Repositories
       url: "https://github.com/sspirial"
+    - name: linkedin
+      title: Connect on LinkedIn
+      url: "https://www.linkedin.com/in/emmanuel-munubi/"
     - name: X
-      title: Share PaperMod on X/Twitter
+      title: Follow on X/Twitter
       url: "https://x.com/MunubiEmmanuel"
 
 
